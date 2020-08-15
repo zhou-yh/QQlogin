@@ -26,6 +26,7 @@ public class Date extends ListActivity{
 	private TextView textView =null;
 	ArrayList<String> items;
 	int flag;
+	private boolean isDownload = false;
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
